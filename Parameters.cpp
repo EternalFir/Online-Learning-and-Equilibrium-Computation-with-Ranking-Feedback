@@ -1,0 +1,13 @@
+double b;
+unsigned long long T;
+int action_size;
+int K;
+int m;
+int M;
+double tau;
+double gamma_v;
+double Delta;
+double eta;
+int exp_idx;
+int player_num;
+bool is_full_info;

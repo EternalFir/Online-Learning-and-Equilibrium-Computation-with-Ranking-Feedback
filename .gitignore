@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.pyc
+distribute.sh
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+test
+Instant
+Average
+CCE_Instant
+CCE_Average
+GenChange
+
+
+/results/
+/figures/
+/paras/
+/.idea/
+/cmake-build-debug/
+/log/
+/possible_changes/
+*.zip
