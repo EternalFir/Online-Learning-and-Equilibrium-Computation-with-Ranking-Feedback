@@ -143,7 +143,8 @@ def draw_multiple_regrets(para_to_draw, para_search_now, rounds, color_list, lin
         times = np.array(times) + 1
         regrets = np.array(regrets)
         if para["algo"].startswith("CCE"):
-            regrets /= times * 2
+            regrets /= times
+            regrets *= 2
         mean_regret = np.mean(regrets, axis=0)
         std_regret = np.std(regrets, axis=0)
         conf_interval = 1.96 * std_regret / np.sqrt(regrets.shape[0])
